@@ -9,7 +9,7 @@ const Creations = () => {
             <h2>Our creations</h2>
         
           <section>
-            {cards.map((cards) => {
+            {cards.map((cards) =>{
                 const{id, image, title} = card
                 return(
                     <article key={id}>
