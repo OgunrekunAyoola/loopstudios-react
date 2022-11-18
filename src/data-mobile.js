@@ -41,4 +41,5 @@
         title: 'Make it fisheye'
     }
 ]
+
 export default data
