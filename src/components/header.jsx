@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component } from 'react'
 import Logo from "../assets/shared/logo.svg"
 
 function Header () {
@@ -14,11 +14,11 @@ function Header () {
 return(
     <div>
        <header className='header'>
-           <div className='mobile-logo'>
+           <div className='logo'>
             <img src={Logo} alt="Loopstudios" />
            </div>
            <nav>
-            <div className='desktop-logo'>
+            <div className='nav-logo'>
                 <img src={Logo} alt="" />
             </div>
             <ul>
@@ -29,7 +29,7 @@ return(
                 <li><button>Support</button></li>
             </ul>
            </nav>
-           <div>
+           <div className="menu-btn" onClick={() => showNav()}>
             <div className='bar bar-1'></div>
             <div className='bar bar-2'></div>
             <div className='bar bar-3'></div>

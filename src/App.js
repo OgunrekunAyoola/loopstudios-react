@@ -3,6 +3,7 @@ import Showcase from "../src/components/showcase"
 import Interactive from "./components/interactive"
 import Creations from "./components/creation"
 import Footer from "./components/footer"
+import Creationsdesktop from "./components/creationdesktop"
 import Css from "../src/App.css"
 
 
@@ -13,6 +14,7 @@ function App(){
             <Showcase />
             <Interactive />
             <Creations />
+            <Creationsdesktop />
             <Footer />
         </div>
     );

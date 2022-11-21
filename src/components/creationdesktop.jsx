@@ -1,18 +1,22 @@
 import React from 'react'
-import Deep__earth from  "../assets/Mobile/image-deep-earth.jpg"
-import Night__arcade from "../assets/Mobile/image-night-arcade.jpg"
-import Soccer__team from "../assets/Mobile/image-soccer-team.jpg"
-import The__grid from "../assets/Mobile/image-grid.jpg"
-import Above__vr from "../assets/Mobile/image-from-above.jpg"
-import Pocket__borealis from "../assets/Mobile/image-pocket-borealis.jpg"
-import The__curiosity from "../assets/Mobile/image-curiosity.jpg"
-import Make__it__fisheye from "../assets/Mobile/image-fisheye.jpg"
+import Deep__earth from  "../assets/DESKTOP/image-deep-earth.jpg"
+import Night__arcade from "../assets/DESKTOP/image-night-arcade.jpg"
+import Soccer__team from "../assets/DESKTOP/image-soccer-team.jpg"
+import The__grid from "../assets/DESKTOP/image-grid.jpg"
+import Above__vr from "../assets/DESKTOP/image-from-above.jpg"
+import Pocket__borealis from "../assets/DESKTOP/image-pocket-borealis.jpg"
+import The__curiosity from "../assets/DESKTOP/image-curiosity.jpg"
+import Make__it__fisheye from "../assets/DESKTOP/image-fisheye.jpg"
 
 
-const Creations = () => {
+const Creationsdesktop = () => {
 
      return (
         <div className="mobile__creation">
+            <div className='our-creation-intro'>
+                <h3>OUR CREATION</h3>
+                <button>SEE ALL</button>
+            </div>
             <div className='grid-section'>
                 <div>
                     <img src={ Deep__earth } alt="" />
@@ -47,9 +51,8 @@ const Creations = () => {
                     <h3>MAKE IT FISHEYE</h3>
                 </div>
             </div>
-            <button>SEE ALL</button>
         </div>
      )
 }
 
-export default Creations
+export default Creationsdesktop
