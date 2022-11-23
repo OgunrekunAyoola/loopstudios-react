@@ -12,10 +12,10 @@ import Make__it__fisheye from "../assets/DESKTOP/image-fisheye.jpg"
 const Creationsdesktop = () => {
 
      return (
-        <div className="mobile__creation">
-            <div className='our-creation-intro'>
-                <h3>OUR CREATION</h3>
-                <button>SEE ALL</button>
+        <div className="creation-desktop">
+            <div className='title'>
+                <h2>OUR CREATION</h2>
+                <div className='btn-container'><button className='btn'>SEE ALL</button></div>
             </div>
             <div className='grid-section'>
                 <div>
