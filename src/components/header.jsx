@@ -8,7 +8,7 @@ function Header () {
 
         menuBtn.addEventListener('click', () => {
             navbar.classList.toggle('open')
-            menuBtn.classList.toggle('rotate')
+            navbar.classList.toggle('active')
         })
     }
 return(
@@ -29,11 +29,7 @@ return(
                 <li><button>Support</button></li>
             </ul>
            </nav>
-           <div className="menu-btn" onClick={() => showNav()}>
-            <div className='bar bar-1'></div>
-            <div className='bar bar-2'></div>
-            <div className='bar bar-3'></div>
-           </div>
+           <div className="menu-btn" onClick={() => showNav()}></div>
        </header>
     </div>   
 )

@@ -17,7 +17,7 @@ const Creationsdesktop = () => {
                 <h2>OUR CREATION</h2>
                 <div className='btn-container'><button className='btn'>SEE ALL</button></div>
             </div>
-            <div className='grid-section'>
+            <article className='grid-section'>
                 <div>
                     <img src={ Deep__earth } alt="" />
                     <h3>DEEP EARTH</h3>
@@ -50,7 +50,7 @@ const Creationsdesktop = () => {
                     <img src={ Make__it__fisheye } alt="" />
                     <h3>MAKE IT FISHEYE</h3>
                 </div>
-            </div>
+            </article>
         </div>
      )
 }

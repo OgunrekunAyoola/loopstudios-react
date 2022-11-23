@@ -5,7 +5,7 @@ const Interactive = () => {
     return (
         <>
            <section className="interactive">
-            <div>
+            <div className='interactive-img'>
                 <img src={interactiveImg} alt="" />
             </div>
             <div className="interactive-text">

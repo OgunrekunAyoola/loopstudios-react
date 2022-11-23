@@ -8,9 +8,9 @@ import pinterest from "../assets/shared/icon-pinterest.svg"
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className='footer'>
             <div>
-                <div>
+                <div className='logo'>
                     <img src={Logo} alt="" />
                 </div>
                 <ul>
@@ -21,7 +21,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <ul>
+                <ul className='social'>
                     <li><img src={Facebook} alt="" /></li>
                      <li><img src={twitter} alt="" /></li>
                       <li><img src={pinterest} alt="" /></li>
