@@ -1,15 +1,24 @@
-import React, {Component } from 'react'
+import React, { Component } from 'react'
 import Logo from "../assets/shared/logo.svg"
 
 function Header () {
     const showNav = () => {
         const menuBtn = document.querySelector('.menu-btn');
         const navbar = document.querySelector('nav');
+        const body = document.body;
 
         menuBtn.addEventListener('click', () => {
             navbar.classList.toggle('open')
-            navbar.classList.toggle('active')
+            menuBtn.classList.toggle('active')
+
+        if (open === true){
+            body.style.overflow = "hidden"
+        } else{
+             body.style.overflow = "visible"
+            }
+
         })
+        
     }
 return(
     <div>

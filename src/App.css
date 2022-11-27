@@ -54,6 +54,13 @@ button {
   width: 100%;
   padding: 10px 20px;
 }
+.logo{
+    padding: 10px 0px 0px 0px;
+    width: 40vw;
+}
+footer .logo{
+    margin: auto;
+}
 .header nav {
   display: none;
   position: absolute;
@@ -66,21 +73,24 @@ button {
 }
 .header nav.open {
   display: block;
+   transition: 2s all ;
 }
+
 .header nav .nav-logo {
-  padding: 40px;
+  padding: 25px 0px 0px 20px;
+  width: 40vw;
 }
 
 .header nav ul {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 .header nav ul li {
   margin-bottom: 30px;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 .header nav ul li button {
   text-transform: uppercase;
-  font-size: 36px;
+  font-size: 5vw;
 }
 .header .menu-btn {
        display: block;
@@ -99,6 +109,8 @@ button {
 
 .header .menu-btn.active {
     background: url(./assets/shared/icon-close.svg);
+     background-repeat: no-repeat;
+     transition: 1s all;
 }
 .showcase {
   background: url(./assets/Mobile/image-hero.jpg);
@@ -227,6 +239,58 @@ button {
 }
 
 @media (min-width: 700px) {
+     .header {
+    padding-left: 200px;
+  }
+  .header nav ul {
+    padding-right: 200px;
+  }
+  .showcase .overlay {
+    padding: 0;
+  }
+  .showcase .overlay h1 {
+    margin-left: 150px;
+    font-size: ;
+  }
+  .header {
+    padding: 20px 30px;
+  }
+  .header .menu-btn {
+    display: none;
+  }
+  .header nav {
+    display: block;
+    background-color: transparent;
+  }
+  .header nav .nav-logo {
+    display: none;
+  }
+  .header nav ul {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    padding: 20px 30px;
+  }
+  .header nav ul li button {
+    font-size: 15px;
+    transition: all 300ms ease-in-out;
+  }
+  .header nav ul li button:hover {
+    color: var(--white);
+    text-shadow: 0 0 10px var(--white);
+    cursor: pointer;
+    font-weight: bolder;
+    border-bottom: solid var(--white);
+    border-width: 5px;
+  }
+  .showcase {
+    background: url(./assets/DESKTOP/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
     .showcase .overlay h1 {
         font-size: 5vw;
         width: 40vw;
@@ -251,7 +315,7 @@ button {
 }
 .interactive-text{
     grid-column: 3/-1;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     background-color: white;
 }
 
