@@ -13,7 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://OgunrekunAyoola.github.io/loopstdios",
+  "homepage": "https://OgunrekunAyoola.github.io/loopstudios-react",
   "scripts": {
      "predeploy": "npm run build",
    "deploy": "gh-pages -b master -d build",
@@ -40,4 +40,4 @@
       "last 1 safari version"
     ]
   }
-
+}
