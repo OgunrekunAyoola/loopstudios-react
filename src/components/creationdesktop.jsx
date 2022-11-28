@@ -17,9 +17,9 @@ const Creationsdesktop = () => {
                 <h2>OUR CREATION</h2>
                 <div className='btn-container'><button className='btn'>SEE ALL</button></div>
             </div>
-            <article className='grid-section'>
+            <article className='grid-section' >
                 <div>
-                    <img src={ Deep__earth } alt="" />
+                    <img src={ Deep__earth } alt=""  />
                     <h3>DEEP EARTH</h3>
                 </div>
                 <div>

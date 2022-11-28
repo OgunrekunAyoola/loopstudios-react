@@ -2,7 +2,10 @@ import React, { Component } from 'react'
 import Logo from "../assets/shared/logo.svg"
 
 function Header () {
+
+    
     const showNav = () => {
+
         const menuBtn = document.querySelector('.menu-btn');
         const navbar = document.querySelector('nav');
         const body = document.body;
@@ -10,16 +13,13 @@ function Header () {
         menuBtn.addEventListener('click', () => {
             navbar.classList.toggle('open')
             menuBtn.classList.toggle('active')
-
-        if (open === true){
-            body.style.overflow = "hidden"
-        } else{
-             body.style.overflow = "visible"
-            }
-
+            body.classList.toggle('overflow-hidden')
         })
-        
+
     }
+
+
+
 return(
     <div>
        <header className='header'>
